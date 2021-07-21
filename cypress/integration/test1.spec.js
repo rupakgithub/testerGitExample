@@ -7,7 +7,7 @@ describe('date component works', function () {
             cy.stub($win, 'prompt').returns('Rupak');
             cy.contains('Click for JS Prompt').click();
         });
-        cy.get('#result').contains('You entered: Rupak');
+        cy.get('#result').contains('You entered: Tesla');
     })
 
 });
